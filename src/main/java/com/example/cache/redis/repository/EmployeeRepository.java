@@ -1,8 +1,8 @@
-package com.example.cache.repository;
+package com.example.cache.redis.repository;
 
 import java.util.List;
 
-import com.example.cache.model.Employee;
+import com.example.cache.redis.model.Employee;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

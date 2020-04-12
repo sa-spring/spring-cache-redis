@@ -1,10 +1,12 @@
-package com.example.cache.service;
+package com.example.cache.redis.service;
 
 import java.util.List;
 
-import com.example.cache.model.Employee;
+import com.example.cache.redis.model.Employee;
 
 public interface EmployeeService {
+
+    Employee findEmployee(Long id);
 
     List<Employee> findAll();
 
