@@ -33,27 +33,4 @@ public class Employee implements Serializable {
     @Column(name = "employeeRole")
     private String employeeRole;
 
-    // public long getEmployeeId() {
-    // return employeeId;
-    // }
-
-    // public void setEmployeeId(long employeeId) {
-    // this.employeeId = employeeId;
-    // }
-
-    // public String getEmployeeRole() {
-    // return employeeRole;
-    // }
-
-    // public void setEmployeeRole(String employeeRole) {
-    // this.employeeRole = employeeRole;
-    // }
-
-    // public String getEmployeeName() {
-    // return employeeName;
-    // }
-
-    // public void setEmployeeName(String employeeName) {
-    // this.employeeName = employeeName;
-    // }
 }
